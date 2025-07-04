@@ -151,6 +151,11 @@ header {
   border: 1px solid var(--surface-color);
 }
 
+.edit-btn svg,
+.delete-btn svg {
+  fill: var(--text-color);
+}
+
 .edit-btn:hover {
   background: var(--base-transparent-100);
   transform: scale(1.05);

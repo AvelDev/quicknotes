@@ -56,7 +56,7 @@ function renderNotes() {
       <div>
         <h2>No notes yet</h2>
         <p>Create your first note to get started!</p>
-        <button class="add-note-btn">+ Add Your First Note</button>
+        <button class="add-note-btn" onclick="openNoteDialog()">+ Add Your First Note</button>
       </div>
     `;
 
